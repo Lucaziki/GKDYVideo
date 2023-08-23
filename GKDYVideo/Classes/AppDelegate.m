@@ -13,7 +13,7 @@
 #import "GKDYMainViewController.h"
 #import <SDWebImage/SDWebImage.h>
 #import <SDWebImageWebPCoder/SDWebImageWebPCoder.h>
-#import <ZFPlayer/ZFLandscapeRotationManager.h>
+#import "ZFLandscapeRotationManager.h"
 #import "GKRotationManager.h"
 
 @interface AppDelegate ()

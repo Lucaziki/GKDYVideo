@@ -8,7 +8,7 @@
 
 #import "GKDYVideoPreviewView.h"
 #import "GKDYTools.h"
-#import <ZFPlayer/ZFAVPlayerManager.h>
+#import "ZFAVPlayerManager.h"
 
 @interface ZFAVPlayerManager (GKCategory)
 

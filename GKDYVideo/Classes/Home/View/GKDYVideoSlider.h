@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <GKSliderView/GKSliderView.h>
-#import <ZFPlayer/ZFPlayer.h>
+#import "ZFPlayer.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

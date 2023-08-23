@@ -12,7 +12,7 @@
 #import "GKDoubleLikeView.h"
 #import <GKSliderView/GKSliderView.h>
 #import "UIButton+GKCategory.h"
-#import <ZFPlayer/ZFReachabilityManager.h>
+#import "ZFReachabilityManager.h"
 #import "GKDYVideoPreviewView.h"
 #import "GKDYTools.h"
 

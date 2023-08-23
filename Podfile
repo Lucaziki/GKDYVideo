@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '11.0'
+platform :ios, '12.0'
 
 target 'GKDYVideo' do
   use_frameworks!
@@ -17,7 +17,7 @@ target 'GKDYVideo' do
   pod 'MJRefresh'
   pod 'JXCategoryView'
   
-  pod 'ZFPlayer/AVPlayer'
+#  pod 'ZFPlayer'
   
   
   # 需要认证，不能免费使用了
@@ -29,8 +29,8 @@ post_install do |installer|
   # 消除版本警告
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
-      if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 11.0
-        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
+      if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 12.0
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
       end
     end
   end

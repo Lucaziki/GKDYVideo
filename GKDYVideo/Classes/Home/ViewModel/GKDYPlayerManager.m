@@ -8,8 +8,8 @@
 
 #import "GKDYPlayerManager.h"
 #import <AFNetworking/AFNetworking.h>
-#import <ZFPlayer/ZFPlayer.h>
-#import <ZFPlayer/ZFAVPlayerManager.h>
+#import "ZFPlayer.h"
+#import "ZFAVPlayerManager.h"
 #import "GKDYVideoCell.h"
 #import "GKRotationManager.h"
 #import "GKDYVideoPortraitCell.h"
